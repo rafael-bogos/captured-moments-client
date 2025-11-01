@@ -47,6 +47,7 @@ cp .env.example .env
 
 # Inicie o servidor de desenvolvimento
 npm run dev
+```
 
 O aplicativo estará disponível em:  
 👉 **http://localhost:3000**
