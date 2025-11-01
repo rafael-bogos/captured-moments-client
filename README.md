@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌇 Captured Moments — Frontend
 
-## Getting Started
+O **Captured Moments** é um **aplicativo web** feito para guardar **momentos especiais** — viagens, experiências e lembranças únicas — de forma simples e bonita.  
+Este repositório contém o **frontend**, responsável por toda a **interface visual** e interação do usuário com o sistema.
 
-First, run the development server:
+---
+
+## 🖥️ Tecnologias Utilizadas
+
+- **Next.js** — Framework React moderno para aplicações rápidas e otimizadas  
+- **Tailwind CSS** — Estilização ágil e responsiva  
+- **TypeScript** — Tipagem estática e segurança no código  
+
+---
+
+## ✨ Principais Funcionalidades
+
+- 📸 Upload e visualização de fotos  
+- 🧾 Criação e edição de descrições com correção automática via IA  
+- 🧠 Integração direta com o backend (Node.js + Fastify + Prisma)  
+- 👤 Autenticação com JWT  
+- 💬 Interface moderna, fluida e otimizada para qualquer dispositivo  
+
+---
+
+## ⚙️ Instalação e Execução Local
+
+### 🔧 Pré-requisitos
+- **Node.js** v18 ou superior  
+- O backend do **Captured Moments** em execução (`http://localhost:8080` por padrão)
+
+### 📦 Passos para rodar o projeto
 
 ```bash
+# Clone o repositório
+git clone https://github.com/rafael-bogos/captured-moments-client.git
+
+# Acesse a pasta
+cd captured-moments-client
+
+# Instale as dependências
+npm install
+
+# Configure as variáveis de ambiente
+cp .env.example .env
+# (edite o arquivo .env com a URL da API e outras configurações necessárias)
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O aplicativo estará disponível em:  
+👉 **http://localhost:3000**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Objetivo
 
-## Learn More
+O frontend do **Captured Moments** busca transformar o ato de registrar lembranças em uma **experiência artística e emocional**, unindo tecnologia, design e sentimento.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧑‍💻 Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Desenvolvido por Rafael Bogos**  
+💛 Criado com paixão por tecnologia e boas lembranças.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚖️ Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto é **totalmente livre e de código aberto**.  
+Você pode **usar, modificar e distribuir** sem restrições.
