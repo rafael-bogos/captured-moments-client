@@ -80,6 +80,13 @@ O frontend do **Captured Moments** busca transformar o ato de registrar lembran�
 
 ---
 
+## ⚙️ Backend do Projeto
+
+🔗 O repositório do **backend** pode ser acessado aqui:  
+👉 [Captured Moments — Backend](https://github.com/rafael-bogos/captured-moments-server)
+
+---
+
 ## ⚖️ Licença
 
 Este projeto é **totalmente livre e de código aberto**.  
